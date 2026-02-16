@@ -566,6 +566,7 @@ ul {
 
 .pricing-banner__title {
     font-size: var(--text-3xl);
+    color: white;
     margin-bottom: var(--space-3);
 }
 
