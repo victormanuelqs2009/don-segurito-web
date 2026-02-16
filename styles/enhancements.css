@@ -1,0 +1,263 @@
+/* ================================================
+   MEJORAS PREMIUM - SCROLL ANIMATIONS
+   ================================================
+   
+   Agregar este archivo AL FINAL del main.css existente
+   o reemplazar las secciones correspondientes
+   ================================================ */
+
+/* Scroll Reveal Animations */
+.fade-in-up {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.fade-in-up.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.scale-in {
+    opacity: 0;
+    transform: scale(0.95);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.scale-in.visible {
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* Hero Enhancements */
+.hero::before {
+    animation: gradient-shift 15s ease infinite !important;
+}
+
+@keyframes gradient-shift {
+
+    0%,
+    100% {
+        transform: translate(0, 0) scale(1);
+    }
+
+    50% {
+        transform: translate(30px, -30px) scale(1.1);
+    }
+}
+
+/* Premium Button Effects */
+.btn--primary {
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(59, 130, 246, 0.3);
+}
+
+.btn--primary::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.3);
+    transform: translate(-50%, -50%);
+    transition: width 0.6s, height 0.6s;
+}
+
+.btn--primary:hover::before {
+    width: 300px;
+    height: 300px;
+}
+
+.btn--primary:hover {
+    box-shadow: 0 15px 40px rgba(59, 130, 246, 0.4);
+    transform: translateY(-2px);
+}
+
+/* Enhanced Stats */
+.stat {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.stat:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.stat__number {
+    background: linear-gradient(135deg, #3b82f6 0%, #f97316 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* Service Card Premium Effects */
+.service-card {
+    position: relative;
+    overflow: hidden;
+}
+
+.service-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.03) 0%, rgba(249, 115, 22, 0.03) 100%);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    z-index: 0;
+}
+
+.service-card:hover::before {
+    opacity: 1;
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+    border-color: transparent;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.12);
+}
+
+.service-card>* {
+    position: relative;
+    z-index: 1;
+}
+
+.service-card:hover .service-card__icon {
+    transform: scale(1.1) rotate(5deg);
+}
+
+.service-card:hover .service-card__title {
+    color: #3b82f6;
+}
+
+.service-card:hover .service-card__features li {
+    transform: translateX(4px);
+}
+
+/* Benefit Cards Enhancement */
+.benefit {
+    transition: all 0.3s ease;
+}
+
+.benefit:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* ================================================
+   CRITICAL FIXES
+   ================================================ */
+
+/* Fix 1: Ensure text is visible on featured card hover */
+.service-card--featured:hover .service-card__title,
+.service-card--featured:hover .service-card__icon {
+    color: #ffffff !important;
+}
+
+.service-card--featured:hover .service-card__features li {
+    color: rgba(255, 255, 255, 0.9) !important;
+}
+
+/* Fix 2: Prevent badge overlap with icon */
+.service-card {
+    padding-top: 4rem !important;
+    /* Extra space for badge */
+}
+
+.service-card__badge {
+    top: 0 !important;
+    right: 0 !important;
+    border-radius: 0 1rem 0 1rem !important;
+    /* Ribbon style */
+    padding: 0.5rem 1.5rem !important;
+    box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* ================================================
+   CONTACT FORM STYLES
+   ================================================ */
+.contact-form {
+    background: white;
+    padding: 2.5rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #1f2937;
+    font-size: 0.95rem;
+}
+
+.form-input,
+.form-select,
+.form-textarea {
+    width: 100%;
+    padding: 1rem;
+    border: 2px solid #e5e7eb;
+    border-radius: 1rem;
+    font-family: inherit;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    background: #f9fafb;
+}
+
+.form-input:focus,
+.form-select:focus,
+.form-textarea:focus {
+    outline: none;
+    border-color: #3b82f6;
+    background: white;
+    box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.1);
+}
+
+.form-textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.btn--block {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+
+/* Success Message Animation */
+.form-success {
+    display: none;
+    text-align: center;
+    padding: 2rem;
+    background: #ecfdf5;
+    border-radius: 1rem;
+    border: 1px solid #10b981;
+}
+
+.form-success.visible {
+    display: block;
+    animation: fadeIn 0.5s ease;
+}
+
+.success-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    display: block;
+}

@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Don Segurito - Reparación y mantenimiento de neveras y lavadoras en Cali, Valle del Cauca. 30 años de experiencia. Servicio profesional y confiable. ¡Revisión desde $40,000 COP!">
+    <meta name="keywords"
+        content="reparación neveras Cali, reparación lavadoras Cali, mantenimiento electrodomésticos, técnico neveras, técnico lavadoras, Don Segurito, Valle del Cauca, servicio técnico">
+    <meta name="author" content="Don Segurito">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Don Segurito - Reparación de Neveras y Lavadoras en Cali">
+    <meta property="og:description"
+        content="30 años de experiencia reparando electrodomésticos en Cali. Servicio profesional y confiable. ¡Contáctanos por WhatsApp!">
+    <meta property="og:image" content="assets/images/logo-main.png">
+    <meta property="og:url" content="https://www.donsegurito.com">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Don Segurito - Reparación de Neveras y Lavadoras">
+    <meta name="twitter:description" content="30 años de experiencia en Cali. Servicio profesional y confiable.">
+    <meta name="twitter:image" content="assets/images/logo-main.png">
+
+    <title>Don Segurito - Reparación de Neveras y Lavadoras en Cali | 30 Años de Experiencia</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/logo-main.png">
+    <link rel="apple-touch-icon" href="assets/images/logo-main.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Poppins:wght@700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <header id="header" class="header">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <img src="assets/images/logo-main.png" alt="Don Segurito Logo" class="logo-image">
+            </div>
+            <button class="nav__toggle" id="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav__menu" id="nav-menu">
+                <li class="nav__item"><a href="#inicio" class="nav__link">Inicio</a></li>
+                <li class="nav__item"><a href="#servicios" class="nav__link">Servicios</a></li>
+                <li class="nav__item"><a href="#nosotros" class="nav__link">Nosotros</a></li>
+                <li class="nav__item"><a href="#contacto" class="nav__link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero__content container">
+            <div class="hero__text">
+                <h1 class="hero__title">
+                    Soluciones Profesionales para tus
+                    <span class="highlight">Electrodomésticos</span>
+                </h1>
+                <p class="hero__description">
+                    30 años de experiencia reparando neveras y lavadoras en Cali.
+                    Servicio confiable, rápido y profesional.
+                </p>
+                <div class="hero__cta">
+                    <a href="#contacto" class="btn btn--primary">Solicitar Servicio</a>
+                    <a href="https://wa.me/573226145318?text=Hola,%20estoy%20interesado%20en%20sus%20servicios%20de%20reparación"
+                        class="btn btn--secondary" target="_blank">
+                        <svg class="btn-icon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                        </svg>
+                        WhatsApp
+                    </a>
+                </div>
+                <div class="hero__stats">
+                    <div class="stat">
+                        <span class="stat__number">30+</span>
+                        <span class="stat__label">Años de Experiencia</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat__number">100%</span>
+                        <span class="stat__label">Clientes Satisfechos</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat__number">24/7</span>
+                        <span class="stat__label">Disponibilidad</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero__image">
+                <img src="assets/images/logo-technicians.png" alt="Técnicos Don Segurito" class="hero__logo-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicios" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nuestros Servicios</h2>
+                <p class="section-description">Especializados en reparación y mantenimiento de electrodomésticos</p>
+            </div>
+
+            <div class="services__grid">
+                <!-- Service 1: Refrigerators -->
+                <article class="service-card">
+                    <div class="service-card__icon">
+                        <svg width="60" height="60" viewBox="0 0 60 60" fill="none">
+                            <rect x="15" y="5" width="30" height="50" rx="3" stroke="currentColor" stroke-width="2.5" />
+                            <line x1="15" y1="28" x2="45" y2="28" stroke="currentColor" stroke-width="2.5" />
+                            <circle cx="20" cy="16" r="1.5" fill="currentColor" />
+                            <circle cx="20" cy="40" r="1.5" fill="currentColor" />
+                            <rect x="18" y="10" width="8" height="12" rx="1" fill="currentColor" opacity="0.2" />
+                        </svg>
+                    </div>
+                    <h3 class="service-card__title">Reparación de Neveras</h3>
+                    <p class="service-card__description">
+                        Diagnóstico y reparación de todo tipo de neveras y refrigeradores.
+                        Problemas de enfriamiento, fugas, ruidos y más.
+                    </p>
+                    <ul class="service-card__features">
+                        <li>✓ Todas las marcas</li>
+                        <li>✓ Repuestos originales</li>
+                        <li>✓ Garantía incluida</li>
+                    </ul>
+                </article>
+
+                <!-- Service 2: Washing Machines -->
+                <article class="service-card service-card--featured">
+                    <div class="service-card__badge">Popular</div>
+                    <div class="service-card__icon">
+                        <svg width="60" height="60" viewBox="0 0 60 60" fill="none">
+                            <rect x="12" y="8" width="36" height="44" rx="3" stroke="currentColor" stroke-width="2.5" />
+                            <circle cx="30" cy="35" r="11" stroke="currentColor" stroke-width="2.5" />
+                            <circle cx="30" cy="35" r="6" stroke="currentColor" stroke-width="2" />
+                            <circle cx="20" cy="16" r="2" fill="currentColor" />
+                            <circle cx="28" cy="16" r="2" fill="currentColor" />
+                            <circle cx="36" cy="16" r="2" fill="currentColor" />
+                        </svg>
+                    </div>
+                    <h3 class="service-card__title">Reparación de Lavadoras</h3>
+                    <p class="service-card__description">
+                        Expertos en lavadoras automáticas y semi-automáticas.
+                        Solución a problemas de centrifugado, desagüe y más.
+                    </p>
+                    <ul class="service-card__features">
+                        <li>✓ Servicio a domicilio</li>
+                        <li>✓ Diagnóstico gratis*</li>
+                        <li>✓ Respuesta rápida</li>
+                    </ul>
+                </article>
+
+                <!-- Service 3: Maintenance -->
+                <article class="service-card">
+                    <div class="service-card__icon">
+                        <svg width="60" height="60" viewBox="0 0 60 60" fill="none">
+                            <path d="M25 15L22 25H18L15 35L20 45H25L28 35L33 45H38L43 35L40 25H36L33 15L28 25L25 15Z"
+                                stroke="currentColor" stroke-width="2.5" stroke-linejoin="round" />
+                            <circle cx="30" cy="30" r="4" fill="currentColor" opacity="0.3" />
+                        </svg>
+                    </div>
+                    <h3 class="service-card__title">Mantenimiento Preventivo</h3>
+                    <p class="service-card__description">
+                        Mantenimiento regular para prolongar la vida útil de tus electrodomésticos.
+                        Evita reparaciones costosas.
+                    </p>
+                    <ul class="service-card__features">
+                        <li>✓ Limpieza profunda</li>
+                        <li>✓ Revisión completa</li>
+                        <li>✓ Recomendaciones</li>
+                    </ul>
+                </article>
+            </div>
+
+            <!-- Pricing Info -->
+            <div class="pricing-banner">
+                <div class="pricing-banner__content">
+                    <h3 class="pricing-banner__title">🎯 Revisión: $40,000 COP</h3>
+                    <p class="pricing-banner__text">
+                        <strong>¡Gratis si acepta la reparación!</strong>
+                        Visitamos su hogar, diagnosticamos el problema y le damos un presupuesto sin compromiso.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits">
+        <div class="container">
+            <div class="benefits__grid">
+                <div class="benefit">
+                    <div class="benefit__icon">⚡</div>
+                    <h3 class="benefit__title">Servicio Rápido</h3>
+                    <p class="benefit__text">Respuesta en menos de 24 horas</p>
+                </div>
+                <div class="benefit">
+                    <div class="benefit__icon">🏆</div>
+                    <h3 class="benefit__title">30 Años de Experiencia</h3>
+                    <p class="benefit__text">Expertos en electrodomésticos</p>
+                </div>
+                <div class="benefit">
+                    <div class="benefit__icon">💯</div>
+                    <h3 class="benefit__title">Garantía</h3>
+                    <p class="benefit__text">Todas nuestras reparaciones incluyen garantía</p>
+                </div>
+                <div class="benefit">
+                    <div class="benefit__icon">💰</div>
+                    <h3 class="benefit__title">Precios Justos</h3>
+                    <p class="benefit__text">Sin cobros ocultos</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="nosotros" class="about">
+        <div class="container">
+            <div class="about__content">
+                <div class="about__text">
+                    <h2 class="section-title">Sobre Nosotros</h2>
+                    <p class="about__description">
+                        Con más de <strong>30 años de experiencia</strong> en Cali, Valle del Cauca,
+                        Don Segurito se ha consolidado como un referente en reparación y mantenimiento
+                        de electrodomésticos.
+                    </p>
+                    <p class="about__description">
+                        Nuestro compromiso es brindar un servicio de calidad, honesto y profesional.
+                        Trabajamos con todas las marcas de neveras y lavadoras, utilizando repuestos
+                        originales y ofreciendo garantía en todas nuestras reparaciones.
+                    </p>
+                    <div class="about__values">
+                        <div class="value">
+                            <h4>🎯 Misión</h4>
+                            <p>Ofrecer soluciones rápidas y efectivas para el hogar caleño</p>
+                        </div>
+                        <div class="value">
+                            <h4>👁️ Visión</h4>
+                            <p>Ser la empresa #1 de reparaciones en el Valle del Cauca</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about__image">
+                    <div class="about__image-container">
+                        <img src="assets/images/logo-complete.png" alt="Equipo Don Segurito" class="about__team-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contáctanos</h2>
+                <p class="section-description">Estamos listos para ayudarte</p>
+            </div>
+
+            <div class="contact__grid">
+                <div class="contact__info">
+                    <div class="contact-item">
+                        <div class="contact-item__icon">📍</div>
+                        <div class="contact-item__content">
+                            <h3 class="contact-item__title">Ubicación</h3>
+                            <p class="contact-item__text">Cali, Valle del Cauca<br>Colombia</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-item__icon">📱</div>
+                        <div class="contact-item__content">
+                            <h3 class="contact-item__title">WhatsApp</h3>
+                            <p class="contact-item__text">
+                                <a href="https://wa.me/573226145318" target="_blank">+57 322 614 5318</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-item__icon">🕐</div>
+                        <div class="contact-item__content">
+                            <h3 class="contact-item__title">Horario</h3>
+                            <p class="contact-item__text">Lunes a Sábado<br>8:00 AM - 6:00 PM</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-item__icon">💬</div>
+                        <div class="contact-item__content">
+                            <h3 class="contact-item__title">Atención al Cliente</h3>
+                            <p class="contact-item__text">Respuesta rápida por WhatsApp</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact__cta">
+                    <div class="cta-card">
+                        <h3 class="cta-card__title">¿Necesitas una reparación?</h3>
+                        <p class="cta-card__text">
+                            Contáctanos ahora por WhatsApp y agenda tu servicio.
+                            Te responderemos de inmediato.
+                        </p>
+                        <a href="https://wa.me/573226145318?text=Hola,%20estoy%20interesado%20en%20sus%20servicios%20de%20reparación"
+                            class="btn btn--primary btn--large" target="_blank">
+                            <svg class="btn-icon" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                            </svg>
+                            Contactar por WhatsApp
+                        </a>
+                        <p class="cta-card__note">* Revisión $40,000 - Gratis si acepta la reparación</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <div class="footer__logo">
+                        <img src="assets/images/logo-main.png" alt="Don Segurito" class="footer__logo-img">
+                    </div>
+                    <p class="footer__tagline">
+                        30 años reparando electrodomésticos en Cali con calidad y confianza.
+                    </p>
+                </div>
+
+                <div class="footer__links">
+                    <h4>Enlaces</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__contact">
+                    <h4>Contacto</h4>
+                    <ul>
+                        <li>📍 Cali, Valle del Cauca</li>
+                        <li>📱 +57 322 614 5318</li>
+                        <li>🕐 Lun - Sáb: 8AM - 6PM</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <p>&copy; 2026 Don Segurito. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Widget -->
+    <div id="whatsapp-widget" class="whatsapp-widget">
+        <!-- Tooltip/Chat Preview -->
+        <div id="whatsapp-tooltip" class="whatsapp-tooltip">
+            <!-- Header -->
+            <div class="whatsapp-tooltip__header">
+                <div class="whatsapp-tooltip__profile">
+                    <div class="whatsapp-tooltip__avatar">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z" />
+                        </svg>
+                    </div>
+                    <div class="whatsapp-tooltip__info">
+                        <p class="whatsapp-tooltip__name">Don Segurito</p>
+                        <p class="whatsapp-tooltip__status">En línea</p>
+                    </div>
+                </div>
+                <button id="whatsapp-close" class="whatsapp-tooltip__close" aria-label="Cerrar">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Body -->
+            <div class="whatsapp-tooltip__body">
+                <div class="whatsapp-tooltip__message">
+                    <p>¡Hola! 👋 ¿Necesitas reparar tu nevera o lavadora? Escríbenos y te ayudamos de inmediato.</p>
+                </div>
+                <a href="https://wa.me/573226145318?text=Hola,%20estoy%20interesado%20en%20sus%20servicios%20de%20reparación"
+                    class="whatsapp-tooltip__button" target="_blank" rel="noopener noreferrer">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                    </svg>
+                    Iniciar Chat
+                </a>
+            </div>
+        </div>
+
+        <!-- Main Floating Button -->
+        <button id="whatsapp-button" class="whatsapp-float" aria-label="Contactar por WhatsApp">
+            <!-- Pulse rings -->
+            <span class="whatsapp-pulse whatsapp-pulse--1"></span>
+            <span class="whatsapp-pulse whatsapp-pulse--2"></span>
+
+            <!-- Icon -->
+            <svg class="whatsapp-icon" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+            </svg>
+        </button>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
